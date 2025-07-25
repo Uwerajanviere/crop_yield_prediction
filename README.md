@@ -1,17 +1,17 @@
-# 🌾 Crop Yield Prediction using Machine Learning
+#  Crop Yield Prediction using Machine Learning
 
 <p align="center">
   <img src="https://github.com/Uwerajanviere/crop_yield_prediction/blob/main/Screenshot%202025-07-25%20104216.png" alt="Web Form Screenshot" width="600"/>
 </p>
 
-## 📌 Problem Statement
+##  Problem Statement
 Agricultural productivity is vital for food security and economic stability. However, farmers often lack reliable tools to predict crop yield based on environmental and input factors.
 
 This project builds a machine learning model to predict **crop yield (in hectograms per hectare)** using agricultural and environmental data.
 
 ---
 
-## ✅ Solution Overview
+##  Solution Overview
 The model predicts crop yield using:
 - 🌧️ Average Rainfall (mm)
 - 🌡️ Average Temperature (°C)
@@ -24,7 +24,7 @@ The model is deployed using **FastAPI** and can be accessed via a custom **HTML 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - **Python 3**
 - **Machine Learning**: `scikit-learn` (Random Forest, Gradient Boosting)
 - **API**: `FastAPI`
@@ -34,7 +34,7 @@ The model is deployed using **FastAPI** and can be accessed via a custom **HTML 
 
 ---
 
-## 📊 Dataset
+##  Dataset
 The dataset includes:
 - Rainfall  
 - Temperature  
@@ -42,11 +42,11 @@ The dataset includes:
 - Area harvested  
 - Yield (hg/ha)
 
-> **Source**: [Crop Production Dataset – Kaggle](https://www.kaggle.com/datasets/yourdatasetlink)
+> **Source**: [Crop Production Dataset – Kaggle](https://www.kaggle.com/datasets/patelris/crop-yield-prediction-dataset)
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 1. User enters inputs in the web form:
     - Rainfall, Temperature, Pesticides, Area, Crop Type, Year
 2. Form sends data to **FastAPI** via a POST request.
@@ -55,16 +55,15 @@ The dataset includes:
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 Here’s how the web form looks:
 
-![Web Form Screenshot 1](https://github.com/Uwerajanviere/crop_yield_prediction/blob/main/Screenshot%202025-07-25%20104216.png)  
 ![Web Form Screenshot 2](https://github.com/Uwerajanviere/crop_yield_prediction/blob/main/Screenshot%202025-07-25%20104228.png)
 
 ---
 
-## 🚀 Run Locally
+##  Run Locally
 
 ```bash
 # Clone the repo
