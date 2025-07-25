@@ -5,24 +5,13 @@ from fastapi.responses import FileResponse
 import numpy as np
 import pickle
 import os
-import requests
 
-# --- Auto-download model from Google Drive if not present ---
+# --- Load the trained model from local file ---
 MODEL_PATH = "crop_model.pkl"
-MODEL_URL = "https://drive.google.com/uc?export=download&id=1uzUgFnp7GR1DvcXFJHB95gzxtgI-qn_E"
 
 if not os.path.exists(MODEL_PATH):
-    print("Downloading model from Google Drive...")
-    try:
-        response = requests.get(MODEL_URL)
-        response.raise_for_status()
-        with open(MODEL_PATH, "wb") as f:
-            f.write(response.content)
-        print("Model download complete.")
-    except Exception as e:
-        print("Error downloading the model:", e)
+    raise FileNotFoundError(f"Model file not found at path: {MODEL_PATH}")
 
-# --- Load the trained model ---
 with open(MODEL_PATH, "rb") as f:
     model = pickle.load(f)
 
@@ -32,7 +21,7 @@ app = FastAPI()
 # CORS middleware (optional)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with specific domain in production
+    allow_origins=["*"],  # Replace with specific domains in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
