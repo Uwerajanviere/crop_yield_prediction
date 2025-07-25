@@ -1,17 +1,17 @@
-#  Crop Yield Prediction using Machine Learning
+# 🌾 Crop Yield Prediction using Machine Learning
 
 <p align="center">
-  <img src="form-screenshot.png" alt="Web Form Screenshot" width="600"/>
+  <img src="https://github.com/yourusername/crop-yield-predictor/blob/main/form-screenshot1.png?raw=true" alt="Web Form Screenshot" width="600"/>
 </p>
 
-##  Problem Statement
+## 📌 Problem Statement
 Agricultural productivity is vital for food security and economic stability. However, farmers often lack reliable tools to predict crop yield based on environmental and input factors.
 
- This project builds a machine learning model to predict **crop yield (in hectograms per hectare)** using agricultural and environmental data.
+This project builds a machine learning model to predict **crop yield (in hectograms per hectare)** using agricultural and environmental data.
 
 ---
 
-##  Solution Overview
+## ✅ Solution Overview
 The model predicts crop yield using:
 - 🌧️ Average Rainfall (mm)
 - 🌡️ Average Temperature (°C)
@@ -29,7 +29,7 @@ The model is deployed using **FastAPI** and can be accessed via a custom **HTML 
 - **Machine Learning**: `scikit-learn` (Random Forest, Gradient Boosting)
 - **API**: `FastAPI`
 - **Frontend**: HTML + CSS
-- **Serialization**: `pickle`
+- **Model Serialization**: `pickle`
 - **Deployment Ready**
 
 ---
@@ -42,11 +42,11 @@ The dataset includes:
 - Area harvested  
 - Yield (hg/ha)
 
-> **Source**: [Crop Production Dataset – Kaggle]
+> **Source**: [Crop Production Dataset – Kaggle](https://www.kaggle.com/datasets/yourdatasetlink)
 
 ---
 
-##  How It Works
+## ⚙️ How It Works
 1. User enters inputs in the web form:
     - Rainfall, Temperature, Pesticides, Area, Crop Type, Year
 2. Form sends data to **FastAPI** via a POST request.
@@ -55,18 +55,16 @@ The dataset includes:
 
 ---
 
-##  Screenshot
+## 🖼️ Screenshots
 
 Here’s how the web form looks:
 
-![Web Form Screenshot](form-screenshot1.png)
-![Web Form Screenshot](form-screenshot2.png)
-
-
+![Web Form Screenshot 1](https://github.com/yourusername/crop-yield-predictor/blob/main/form-screenshot1.png?raw=true)  
+![Web Form Screenshot 2](https://github.com/yourusername/crop-yield-predictor/blob/main/form-screenshot2.png?raw=true)
 
 ---
 
-##  Run Locally
+## 🚀 Run Locally
 
 ```bash
 # Clone the repo
