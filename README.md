@@ -1,7 +1,7 @@
 # 🌾 Crop Yield Prediction using Machine Learning
 
 <p align="center">
-  <img src="https://github.com/yourusername/crop-yield-predictor/blob/main/form-screenshot1.png?raw=true" alt="Web Form Screenshot" width="600"/>
+  <img src="https://github.com/Uwerajanviere/crop_yield_prediction/blob/main/Screenshot%202025-07-25%20104216.png" alt="Web Form Screenshot" width="600"/>
 </p>
 
 ## 📌 Problem Statement
@@ -59,8 +59,8 @@ The dataset includes:
 
 Here’s how the web form looks:
 
-![Web Form Screenshot 1](https://github.com/yourusername/crop-yield-predictor/blob/main/form-screenshot1.png?raw=true)  
-![Web Form Screenshot 2](https://github.com/yourusername/crop-yield-predictor/blob/main/form-screenshot2.png?raw=true)
+![Web Form Screenshot 1](https://github.com/Uwerajanviere/crop_yield_prediction/blob/main/Screenshot%202025-07-25%20104216.png)  
+![Web Form Screenshot 2](https://github.com/Uwerajanviere/crop_yield_prediction/blob/main/Screenshot%202025-07-25%20104228.png)
 
 ---
 
