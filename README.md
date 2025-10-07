@@ -13,12 +13,12 @@ This project builds a machine learning model to predict **crop yield (in hectogr
 
 ##  Solution Overview
 The model predicts crop yield using:
-- 🌧️ Average Rainfall (mm)
-- 🌡️ Average Temperature (°C)
-- 🧪 Pesticide Usage (tons)
-- 🌱 Area under cultivation (hectares)
-- 🌾 Crop Type (encoded as integers)
-- 📅 Year
+ Average Rainfall (mm)
+ Average Temperature (°C)
+ Pesticide Usage (tons)
+ Area under cultivation (hectares)
+ Crop Type (encoded as integers)
+ Year
 
 The model is deployed using **FastAPI** and can be accessed via a custom **HTML form**.
 
